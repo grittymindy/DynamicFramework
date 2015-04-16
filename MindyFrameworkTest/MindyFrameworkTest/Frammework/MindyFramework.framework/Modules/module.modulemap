@@ -1,0 +1,6 @@
+framework module MindyFramework {
+  umbrella header "MindyFramework.h"
+
+  export *
+  module * { export * }
+}

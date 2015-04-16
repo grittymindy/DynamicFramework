@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>MindyFramework.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>E1476E2F1ADF904700E7DD2F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E1476E3A1ADF904700E7DD2F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E1476EFB1ADFAD9800E7DD2F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

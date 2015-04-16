@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1476EC61ADFA1C200E7DD2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1476EC51ADFA1C200E7DD2F /* main.m */; };
+		E1476EC91ADFA1C200E7DD2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1476EC81ADFA1C200E7DD2F /* AppDelegate.m */; };
+		E1476ECF1ADFA1C200E7DD2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1476ECD1ADFA1C200E7DD2F /* Main.storyboard */; };
+		E1476ED11ADFA1C200E7DD2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1476ED01ADFA1C200E7DD2F /* Images.xcassets */; };
+		E1476ED41ADFA1C200E7DD2F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1476ED21ADFA1C200E7DD2F /* LaunchScreen.xib */; };
+		E1476EE01ADFA1C200E7DD2F /* MindyFrameworkTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1476EDF1ADFA1C200E7DD2F /* MindyFrameworkTestTests.m */; };
+		E1476EF81ADFA9DB00E7DD2F /* MindyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1476EEA1ADFA1E000E7DD2F /* MindyFramework.framework */; };
+		E1476EF91ADFA9DB00E7DD2F /* MindyFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E1476EEA1ADFA1E000E7DD2F /* MindyFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1476EDA1ADFA1C200E7DD2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1476EB81ADFA1C200E7DD2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1476EBF1ADFA1C200E7DD2F;
+			remoteInfo = MindyFrameworkTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E1476EFA1ADFA9DB00E7DD2F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E1476EF91ADFA9DB00E7DD2F /* MindyFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E1476EC01ADFA1C200E7DD2F /* MindyFrameworkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindyFrameworkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1476EC41ADFA1C200E7DD2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1476EC51ADFA1C200E7DD2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1476EC71ADFA1C200E7DD2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1476EC81ADFA1C200E7DD2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1476ECE1ADFA1C200E7DD2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1476ED01ADFA1C200E7DD2F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E1476ED31ADFA1C200E7DD2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E1476ED91ADFA1C200E7DD2F /* MindyFrameworkTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindyFrameworkTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1476EDE1ADFA1C200E7DD2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1476EDF1ADFA1C200E7DD2F /* MindyFrameworkTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MindyFrameworkTestTests.m; sourceTree = "<group>"; };
+		E1476EEA1ADFA1E000E7DD2F /* MindyFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MindyFramework.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1476EBD1ADFA1C200E7DD2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1476EF81ADFA9DB00E7DD2F /* MindyFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1476ED61ADFA1C200E7DD2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1476EB71ADFA1C200E7DD2F = {
+			isa = PBXGroup;
+			children = (
+				E1476EC21ADFA1C200E7DD2F /* MindyFrameworkTest */,
+				E1476EDC1ADFA1C200E7DD2F /* MindyFrameworkTestTests */,
+				E1476EC11ADFA1C200E7DD2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1476EC11ADFA1C200E7DD2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1476EC01ADFA1C200E7DD2F /* MindyFrameworkTest.app */,
+				E1476ED91ADFA1C200E7DD2F /* MindyFrameworkTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1476EC21ADFA1C200E7DD2F /* MindyFrameworkTest */ = {
+			isa = PBXGroup;
+			children = (
+				E1476EC71ADFA1C200E7DD2F /* AppDelegate.h */,
+				E1476EC81ADFA1C200E7DD2F /* AppDelegate.m */,
+				E1476ECD1ADFA1C200E7DD2F /* Main.storyboard */,
+				E1476ED01ADFA1C200E7DD2F /* Images.xcassets */,
+				E1476ED21ADFA1C200E7DD2F /* LaunchScreen.xib */,
+				E1476EE91ADFA1E000E7DD2F /* Frammework */,
+				E1476EC31ADFA1C200E7DD2F /* Supporting Files */,
+			);
+			path = MindyFrameworkTest;
+			sourceTree = "<group>";
+		};
+		E1476EC31ADFA1C200E7DD2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1476EC41ADFA1C200E7DD2F /* Info.plist */,
+				E1476EC51ADFA1C200E7DD2F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1476EDC1ADFA1C200E7DD2F /* MindyFrameworkTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1476EDF1ADFA1C200E7DD2F /* MindyFrameworkTestTests.m */,
+				E1476EDD1ADFA1C200E7DD2F /* Supporting Files */,
+			);
+			path = MindyFrameworkTestTests;
+			sourceTree = "<group>";
+		};
+		E1476EDD1ADFA1C200E7DD2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1476EDE1ADFA1C200E7DD2F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1476EE91ADFA1E000E7DD2F /* Frammework */ = {
+			isa = PBXGroup;
+			children = (
+				E1476EEA1ADFA1E000E7DD2F /* MindyFramework.framework */,
+			);
+			path = Frammework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1476EBF1ADFA1C200E7DD2F /* MindyFrameworkTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1476EE31ADFA1C200E7DD2F /* Build configuration list for PBXNativeTarget "MindyFrameworkTest" */;
+			buildPhases = (
+				E1476EBC1ADFA1C200E7DD2F /* Sources */,
+				E1476EBD1ADFA1C200E7DD2F /* Frameworks */,
+				E1476EBE1ADFA1C200E7DD2F /* Resources */,
+				E1476EFA1ADFA9DB00E7DD2F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindyFrameworkTest;
+			productName = MindyFrameworkTest;
+			productReference = E1476EC01ADFA1C200E7DD2F /* MindyFrameworkTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1476ED81ADFA1C200E7DD2F /* MindyFrameworkTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1476EE61ADFA1C200E7DD2F /* Build configuration list for PBXNativeTarget "MindyFrameworkTestTests" */;
+			buildPhases = (
+				E1476ED51ADFA1C200E7DD2F /* Sources */,
+				E1476ED61ADFA1C200E7DD2F /* Frameworks */,
+				E1476ED71ADFA1C200E7DD2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1476EDB1ADFA1C200E7DD2F /* PBXTargetDependency */,
+			);
+			name = MindyFrameworkTestTests;
+			productName = MindyFrameworkTestTests;
+			productReference = E1476ED91ADFA1C200E7DD2F /* MindyFrameworkTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1476EB81ADFA1C200E7DD2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Mindy;
+				TargetAttributes = {
+					E1476EBF1ADFA1C200E7DD2F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					E1476ED81ADFA1C200E7DD2F = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = E1476EBF1ADFA1C200E7DD2F;
+					};
+				};
+			};
+			buildConfigurationList = E1476EBB1ADFA1C200E7DD2F /* Build configuration list for PBXProject "MindyFrameworkTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1476EB71ADFA1C200E7DD2F;
+			productRefGroup = E1476EC11ADFA1C200E7DD2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1476EBF1ADFA1C200E7DD2F /* MindyFrameworkTest */,
+				E1476ED81ADFA1C200E7DD2F /* MindyFrameworkTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1476EBE1ADFA1C200E7DD2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1476ECF1ADFA1C200E7DD2F /* Main.storyboard in Resources */,
+				E1476ED41ADFA1C200E7DD2F /* LaunchScreen.xib in Resources */,
+				E1476ED11ADFA1C200E7DD2F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1476ED71ADFA1C200E7DD2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1476EBC1ADFA1C200E7DD2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1476EC91ADFA1C200E7DD2F /* AppDelegate.m in Sources */,
+				E1476EC61ADFA1C200E7DD2F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1476ED51ADFA1C200E7DD2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1476EE01ADFA1C200E7DD2F /* MindyFrameworkTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1476EDB1ADFA1C200E7DD2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1476EBF1ADFA1C200E7DD2F /* MindyFrameworkTest */;
+			targetProxy = E1476EDA1ADFA1C200E7DD2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1476ECD1ADFA1C200E7DD2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1476ECE1ADFA1C200E7DD2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1476ED21ADFA1C200E7DD2F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1476ED31ADFA1C200E7DD2F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1476EE11ADFA1C200E7DD2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1476EE21ADFA1C200E7DD2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1476EE41ADFA1C200E7DD2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MindyFrameworkTest/Frammework",
+				);
+				INFOPLIST_FILE = MindyFrameworkTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E1476EE51ADFA1C200E7DD2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MindyFrameworkTest/Frammework",
+				);
+				INFOPLIST_FILE = MindyFrameworkTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E1476EE71ADFA1C200E7DD2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MindyFrameworkTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindyFrameworkTest.app/MindyFrameworkTest";
+			};
+			name = Debug;
+		};
+		E1476EE81ADFA1C200E7DD2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MindyFrameworkTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindyFrameworkTest.app/MindyFrameworkTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1476EBB1ADFA1C200E7DD2F /* Build configuration list for PBXProject "MindyFrameworkTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1476EE11ADFA1C200E7DD2F /* Debug */,
+				E1476EE21ADFA1C200E7DD2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1476EE31ADFA1C200E7DD2F /* Build configuration list for PBXNativeTarget "MindyFrameworkTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1476EE41ADFA1C200E7DD2F /* Debug */,
+				E1476EE51ADFA1C200E7DD2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E1476EE61ADFA1C200E7DD2F /* Build configuration list for PBXNativeTarget "MindyFrameworkTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1476EE71ADFA1C200E7DD2F /* Debug */,
+				E1476EE81ADFA1C200E7DD2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1476EB81ADFA1C200E7DD2F /* Project object */;
+}
