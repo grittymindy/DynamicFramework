@@ -13,8 +13,7 @@
 		E1476ED11ADFA1C200E7DD2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1476ED01ADFA1C200E7DD2F /* Images.xcassets */; };
 		E1476ED41ADFA1C200E7DD2F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1476ED21ADFA1C200E7DD2F /* LaunchScreen.xib */; };
 		E1476EE01ADFA1C200E7DD2F /* MindyFrameworkTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1476EDF1ADFA1C200E7DD2F /* MindyFrameworkTestTests.m */; };
-		E1476EF81ADFA9DB00E7DD2F /* MindyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1476EEA1ADFA1E000E7DD2F /* MindyFramework.framework */; };
-		E1476EF91ADFA9DB00E7DD2F /* MindyFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E1476EEA1ADFA1E000E7DD2F /* MindyFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E1508B231AEA3F9000119B98 /* MindyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1476EEA1ADFA1E000E7DD2F /* MindyFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,20 +25,6 @@
 			remoteInfo = MindyFrameworkTest;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		E1476EFA1ADFA9DB00E7DD2F /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				E1476EF91ADFA9DB00E7DD2F /* MindyFramework.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E1476EC01ADFA1C200E7DD2F /* MindyFrameworkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindyFrameworkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1476EF81ADFA9DB00E7DD2F /* MindyFramework.framework in Frameworks */,
+				E1508B231AEA3F9000119B98 /* MindyFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,7 +136,6 @@
 				E1476EBC1ADFA1C200E7DD2F /* Sources */,
 				E1476EBD1ADFA1C200E7DD2F /* Frameworks */,
 				E1476EBE1ADFA1C200E7DD2F /* Resources */,
-				E1476EFA1ADFA9DB00E7DD2F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -365,13 +349,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MindyFrameworkTest/Frammework",
 				);
 				INFOPLIST_FILE = MindyFrameworkTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(PROJECT_DIR)/MindyFrameworkTest/Frammework";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -380,13 +365,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MindyFrameworkTest/Frammework",
 				);
 				INFOPLIST_FILE = MindyFrameworkTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(PROJECT_DIR)/MindyFrameworkTest/Frammework";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -444,6 +430,7 @@
 				E1476EE51ADFA1C200E7DD2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1476EE61ADFA1C200E7DD2F /* Build configuration list for PBXNativeTarget "MindyFrameworkTestTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +439,7 @@
 				E1476EE81ADFA1C200E7DD2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
