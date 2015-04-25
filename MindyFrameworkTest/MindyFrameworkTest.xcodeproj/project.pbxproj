@@ -13,7 +13,7 @@
 		E1476ED11ADFA1C200E7DD2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1476ED01ADFA1C200E7DD2F /* Images.xcassets */; };
 		E1476ED41ADFA1C200E7DD2F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1476ED21ADFA1C200E7DD2F /* LaunchScreen.xib */; };
 		E1476EE01ADFA1C200E7DD2F /* MindyFrameworkTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1476EDF1ADFA1C200E7DD2F /* MindyFrameworkTestTests.m */; };
-		E1508B231AEA3F9000119B98 /* MindyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1476EEA1ADFA1E000E7DD2F /* MindyFramework.framework */; };
+		E1508B301AEB463800119B98 /* MindyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1476EEA1ADFA1E000E7DD2F /* MindyFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1508B231AEA3F9000119B98 /* MindyFramework.framework in Frameworks */,
+				E1508B301AEB463800119B98 /* MindyFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,7 +356,7 @@
 				);
 				INFOPLIST_FILE = MindyFrameworkTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(PROJECT_DIR)/MindyFrameworkTest/Frammework";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(PROJECT_DIR)/MindyFrameworkTest/Frammework";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -372,7 +372,7 @@
 				);
 				INFOPLIST_FILE = MindyFrameworkTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(PROJECT_DIR)/MindyFrameworkTest/Frammework";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(PROJECT_DIR)/MindyFrameworkTest/Frammework";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
